@@ -17,6 +17,7 @@
     "vite-plugin-mkcert": "latest",
     "@vitejs/plugin-vue": "latest",
     "vue": "latest",
-    "@oruga-ui/oruga-next": "latest"
+    "@oruga-ui/oruga-next": "latest",
+    "@wyxos/vue-3-helpers": "github:wyxos/vue-3-helpers"
   }
 }
