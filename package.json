@@ -5,7 +5,8 @@
     "build": "vite build",
     "lint:js": "eslint . --fix --ext .js,.vue,.json && prettier --write **/*{.js,.vue,.json}",
     "lint:php": "prettier --config .prettierrc.php.json **/*.php --write --ignore-unknown",
-    "lint": "npm run lint:js && npm run lint:php"
+    "lint": "npm run lint:js && npm run lint:php",
+    "release": "node release.mjs"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.2",
@@ -32,6 +33,9 @@
     "eslint-plugin-promise": "latest",
     "eslint-plugin-vue": "latest",
     "prettier": "latest",
-    "@prettier/plugin-php": "latest"
-  }
+    "@prettier/plugin-php": "latest",
+    "chalk": "latest",
+    "inquirer": "latest"
+  },
+  "version": "1.0.0.alpha.1"
 }
